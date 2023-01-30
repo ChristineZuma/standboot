@@ -1,0 +1,9 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    root: info # 根日志，默认级别是info，如果使用info，可以不写这一行
+    com.moyundong.dao: debug # 子级别日志，可以指定到自己的某个包
+  file:
+    name: /log/springboot-test.log
