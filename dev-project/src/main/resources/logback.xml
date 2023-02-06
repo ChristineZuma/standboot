@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration debug="false">
     <!--定义日志文件的存储地址目录 -->
-    <property name="LOG_HOME" value="/logs/test.log" />
+    <property name="LOG_HOME" value="/logs/test" />
 
     <!-- 控制台输出的配置 -->
     <appender name="STDOUT"
